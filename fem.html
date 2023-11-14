@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1,h5{
+            text-underline-position: below;
+        }
+        p{
+            color: blue;
+        }
+        rad{
+            
+        }
+    </style>
+    <title style="font-size: large;">This is a full form</title>
+</head>
+<body>
+    <form>
+        <h5 style="font-size: larger;">Job Application Form</h5>
+        <p>First Name:<input type="text" name="first_name" class="br"/></p>
+        <p>Last Name:<input type="text" name="second_name"class="br"/></p>
+        <p>Email:<input type="text" name="email_address"class="br"/></p>
+        <p>Phone:<input type="number" name="number"class="br"/></p>
+        <p>C.V:<input type="file" name="file_upload" accept="file_upload"</p>
+        <p>Address1:<input type="address" name="home_address"class="br"/></p>
+        <p>Address2:<input type="address" name="home_address"class="br"/></p>
+        <p>City:<input type="text" name="city"class="br"/></p>
+        <p>State: <select>
+            <option>Kampala</option>
+            <option>Mengo</option>
+            <option>Kiwatule</option>
+            <option>Kempa</option>
+        </select></p>
+        Religion:<br>
+        Islam:<input type="radio" name="religion"/>
+        Christian:<input type="radio" name="religion"/>
+        None:<input type="radio" name="religion"/>
+        <p>Cancel Registration:<input type="checkbox" name="cancel"class="br"/></p>
+    </form>
+    <form>
+        Description:<br>
+        <textarea cols="80" rows="8" name="description">
+        Enter description here
+        </textarea>
+    </form>
+    <form>
+        <input type="submit" name="submit" value="submit"/>
+        <input type="reset" name="reset" value="reset"/>
+        <input type="button" name="ok" value="OK"/>
+    </form>
+</body>
+</html>
